@@ -1,5 +1,5 @@
 # RoConsole
-simple python script that will assist you in certain roblox activitys
+simple python script that will assist you in certain roblox activitys (fixed an issue with pypi)
 
 # how to use
 
