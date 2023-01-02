@@ -2,7 +2,7 @@
 import requests, time, sys, os
 
 try:
- from admcheck2.main import *
+ from adm3.main import *
 except:
  print("Installing required packages, please wait.")
  os.system("pip install admcheck2 && pip install colorama && pip install threading && pip install robloxpy && pip install glob2 && pip install requests")
