@@ -5,7 +5,12 @@ try:
  from adm4.main import *
 except:
  print("Installing required packages, please wait.")
- os.system("pip install adm4 colorama robloxpy glob2 requests")    # Salty-Coder :)
+ try:
+  os.system("pip install adm4 colorama robloxpy glob2 requests")    # Salty-Coder :)
+ except:
+  print("An error occured while installing required packages. Please retry.")
+  time.sleep(5)
+  exit()
  print("finished installing required packages please restart terminal.")
 
 from colorama import *
